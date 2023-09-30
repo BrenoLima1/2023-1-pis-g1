@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../dist/js/Aluno/login.js" defer type="module"></script>
+    <title>Cefet Shop > Login</title>
+  </head>
+  <body>
+    <header>
+        <br>
+      <a href="carrinho.html"><button class="button" title="Carrinho de compras"><span class="badge"></span> 🛒 </button></a>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+              <a href="produtos.html"><strong>Produtos</strong></a>
+            </div>
+          </div>
+    </header>
+
+    <div id="divForm">
+      <h1>🪶Login🪶</h1>
+      <hr />
+      <form method="post">
+        <h3 id="labelLogin"><label for="login">Login</label></h3>
+        <input type="text" name="login" id="login" required placeholder="Email ou matrícula"/>
+        <h3><label for="senha">Senha</label></h3>
+        <input type="password" name="senha" id="senha" required placeholder="Senha" />
+        <hr/>
+        <input type="submit" value="Entrar" id="entrar" />
+      </form>
+    </div>
+  </body>
+</html>

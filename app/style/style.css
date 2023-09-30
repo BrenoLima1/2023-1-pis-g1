@@ -1,0 +1,383 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carrinhoBody{
+  background-image: url('imgs/carrinho.png');
+  background-size: cover;
+}
+
+header {
+    background-color: rgb(255, 234, 143);
+    height: 60px;
+    width: 100%;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropbtn {
+    margin-left: 20px;
+    background-color: #8697f5;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+
+  .loginbtn {
+    color: #8697f5;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 95px;
+    background-color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+  .dropdown-content a:hover{
+    color: rgb(253, 238, 151);
+    background-color: #8697f5;
+  }
+
+  img{
+    width: 200px!important;
+    height: 240px!important;
+    border-radius: 13%;
+  }
+
+  [redirect]{
+    cursor: pointer;
+  }
+
+  button[redirect], #carrinho{
+    cursor: pointer;
+    background-color: lightblue;
+    border: #8697f5;
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  #carrinho:hover{
+    background-color: lightyellow;
+  }
+
+  button[redirect]:hover{
+    background-color: lightyellow;
+  }
+
+
+  tfoot{
+    background-color: rgb(250, 194, 91);
+  }
+
+  table[data-upgraded=",MaterialDataTable"]{
+    background-color: orange;
+    width: 100%;
+  }
+
+  .mdl-layout__content, .mdl-shadow--2dp{
+    width: 100%;
+  }
+
+  #divBotao{
+    text-align: end;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropbtn {
+    margin-left: 20px;
+    background-color: #8697f5;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 95px;
+    background-color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+  .dropdown-content a:hover{
+    color: rgb(253, 238, 151);
+    background-color: #8697f5;
+  }
+
+    .button {
+      background-color: rgb(255 255 126);
+      border-radius: 50%;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+      padding: 3px;
+      margin-left: 9px;
+      font-size: xx-large;
+      cursor: pointer;
+    }
+
+    .button:hover{
+      font-size: 34px;
+      margin-right: -3px;
+    }
+
+
+    .badge {
+      background-color: red;
+      border-radius: 50%;
+      color: white;
+      padding: 5px 8px;
+      font-size: 12px;
+      position: absolute;
+      top: -1px;
+      right: 4px;
+    }
+    #produto{
+      text-align: center;
+    max-width: 350px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: table;
+    left: 0;
+    right: 0;
+    margin: auto;
+    }
+
+    #adicionar{
+        cursor: pointer;
+        background-color: lightblue;
+        border: #8697f5;
+        width: 120px;
+        height: 50px;
+        border-radius: 50%;
+        font-weight: 700;
+      }
+
+      #adicionar:hover{
+        background-color: lightyellow;
+      }
+
+      h3{
+        margin-bottom: -20px;
+      }
+
+    #TituloDivProdutos{
+      text-align: center;
+    }
+
+      .pai {
+      display: inline-block;
+      border-radius: 5%;
+      background-color: #d0c1ef;
+      border: solid aquamarine;
+      /* height: 650px; */
+      margin: 10px;
+      height: max-content;
+      min-height: 620px;
+      display: inline-block;
+      width: 500px;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    #produtos{
+            text-align: center;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+          left: 0;
+          right: 0;
+          margin: auto;
+          }
+
+          button{
+            margin-left: 20px;
+            margin-right: 20px;
+            cursor: pointer;
+          }
+
+          #mais{
+            text-align: center;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+          display: table;
+          left: 0;
+          right: 0;
+          margin: auto;
+          }
+
+          #paginacao{
+            text-align: center;
+          }
+
+          #paginacao button{
+            background-color: rgb(159, 159, 255);
+            border: #8697f5;
+            font-size: larger;
+            border-radius: 13%;
+            font-weight: 700;
+          }
+
+          #paginacao button:hover{
+            background-color: aqua;
+            border-style: dashed;
+          }
+
+          #indexDiv h1:nth-child(1){
+            color: blue;
+          }
+          #indexDiv{
+            text-align: center;
+          }
+
+          #produtos{
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            display: table;
+            left: 0;
+            right: 0;
+            margin: auto;
+          }
+
+          button{
+            margin-left: 20px;
+            margin-right: 20px;
+            cursor: pointer;
+          }
+
+         #produtos  p:hover{
+         cursor: pointer;
+         color: blue;
+         }
+
+  #mais{
+    text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: table;
+  left: 0;
+  right: 0;
+  margin: auto;
+  }
+#mais{
+  border-radius: 20%;
+    background: darkseagreen;
+    font-size: large;
+    border: beige;
+}
+
+#mais:hover{
+  background-color: aquamarine;
+}
+
+table img{
+    width: 100px!important;
+    height: 100px!important;
+}
+
+#divForm {
+  text-align: center;
+  max-width: 350px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: table;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(201, 243, 234);
+  border-radius: 10%;
+  width: 40%;
+  border: solid rgb(94, 95, 0);
+}
+
+form input {
+  border-radius: 5px;
+  text-align: center;
+}
+
+form {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  width: 30%;
+  margin-top: 10;
+  background-color: rgba(242, 244, 196, 0.841);
+  height: 40px;
+  font-size: large;
+  border: solid rgb(255, 253, 240);
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(241, 222, 116);
+}
+
+form h3{
+  margin-bottom: 0;
+}
+
+#labelLogin{
+  margin-top: 0;
+}
+
+#senha{
+  margin-bottom: 8px;
+}
+
+#divForm b{
+  color: red;
+}

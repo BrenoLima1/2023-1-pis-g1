@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Conta</title>
+    <link rel="stylesheet" href="../style/mdl/material.min.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <script src="../style/mdl/material.min.js"></script>
+    <script src="../dist/js/Aluno/alunoPeloID.js" defer type="module"></script>
+    <script src="../../loader.js" defer></script>
+
+
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <br />
+      <div class="dropdown" style="position: relative; z-index: 9999">
+        <button class="dropbtn" id="botaoMenu">Olá </button>
+        <div class="dropdown-content">
+          <a href="index.html"><strong>Início</strong></a>
+          <a href="produtos.html#1"><strong>Produtos</strong></a>
+          <a href="logout.html" id="sair"><strong>Sair</strong></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Informações do Aluno</h2>
+          </div>
+          <div class="mdl-card__supporting-text" id="informacoes-aluno">
+            <strong>Matrícula:</strong> <span id="matricula"></span><br />
+            <strong>Nome:</strong> <span id="nome"></span><br />
+            <strong>Saldo Atual:</strong> <span id="saldo"></span>
+          </div>
+        </div>
+        <div id="tabela-pedidos"></div>
+      </div>
+    </main>
+
+    <br><br>
+    <hr>
+    <br><br>
+    <div id="grafico"></div>
+  </body>
+</html>

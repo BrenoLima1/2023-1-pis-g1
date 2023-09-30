@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listagem de Reservas</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/mdl/material.min.css">
+    <script src="../style/mdl/material.min.js"></script>
+    <script src="../dist/js/Carrinho/exibirCarrinho.js" defer type="module"></script>
+  </head>
+      <body class="carrinhoBody">
+        <header>
+          <br>
+          <div class="dropdown">
+              <button class="dropbtn" id="botaoMenu">Menu</button>
+              <div class="dropdown-content">
+                <a href="produtos.html"><strong>Produtos</strong></a>
+                <a href="index.html"><strong>🏠Início</strong></a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="login.html" id="botaoLogin">
+                <button class="loginbtn" id="botaoEntrar">🛒</button>
+              </a>
+                <div class="dropdown-content" id="dropdownLogin">
+                  <a href="aluno.html"><strong>Sua conta</strong></a>
+                  <a href="logout.html" id="sair"><strong>Sair</strong></a>
+                </div>
+          </div>
+      </header>
+      <br><br><br>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="excluir" title="Excluir itens selecionados">
+            Excluir
+          </button>
+          <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Imagem</th>
+                <th class="mdl-data-table__cell--non-numeric">Produto</th>
+                <th class="mdl-data-table__cell--non-numeric">Descrição</th>
+                <th>Quantidade</th>
+                <th>Valor ($C)</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Total:</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+          <div id="divBotao">
+            <button id="compra" title="Comprar estes itens" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+              COMPRAR
+            </button>
+          </div>
+            </body>
+
+  </body>
+</html>

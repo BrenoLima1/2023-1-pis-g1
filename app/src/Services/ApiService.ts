@@ -1,0 +1,1 @@
+export const BASE_API = 'http://localhost/2023-1-pis-g1/api/';

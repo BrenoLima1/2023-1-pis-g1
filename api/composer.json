@@ -1,0 +1,21 @@
+{
+    "name": "vendor/pis",
+    "description": "testes kahlan PIS",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Pis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Breno Lima",
+            "email": "brenolimanf@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "kahlan/kahlan": "^5.2"
+    },
+    "scripts": {
+        "test": "./vendor/bin/kahlan"
+    }
+}
